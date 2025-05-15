@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <!-- Banner personalizzato sopra la griglia delle app -->
+    <template id="applauncher_demo_banner" inherit_id="web.layout">
+      <xpath expr="//body" position="inside">
+        <div class="container-fluid mt-3" style="background-color: #eef7ff; border-radius: 10px; padding: 20px;">
+          <div class="text-center">
+            <h2 class="mb-3">🚀 Demo: Benvenuto in Odoo 16</h2>
+            <p class="lead">
+              Questo contenuto è stato aggiunto dal modulo 
+              <strong class="text-primary">applauncher_Demo</strong>
+            </p>
+          </div>
+        </div>
+      </xpath>
+    </template>
+  </data>
+</odoo>

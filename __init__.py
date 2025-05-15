@@ -1,0 +1,1 @@
+# Modulo frontend dimostrativo - nessuna logica Python
