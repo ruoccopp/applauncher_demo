@@ -10,6 +10,11 @@
     "data": [
         "views/app_drawer_inherit.xml",
     ],
+    'assets': {
+        'web.assets_backend': [
+            'applauncher_demo/static/src/js/dynamic_banner.js',
+        ],
+    },
     "installable": True,
     "application": False,
 }
